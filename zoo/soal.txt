@@ -1,0 +1,42 @@
+Soal: Sistem Manajemen Kebun Binatang 🦁🐘
+Buatlah program dalam Java yang mensimulasikan Sistem Manajemen Kebun Binatang menggunakan konsep Object-Oriented Programming (OOP).
+
+1. Kelas-Kelas yang Dibutuhkan
+
+Hewan
+Atribut: nama, jenis, umur
+Metode:
+tampilkanInfo(): Menampilkan informasi hewan
+
+Penjaga
+Atribut: nama, umur, daftarHewan (list hewan yang dirawat)
+Metode:
+tambahHewan(Hewan hewan): Menambahkan hewan ke daftar yang dirawat
+tampilkanInfo(): Menampilkan informasi penjaga dan hewan yang dirawat
+
+KebunBinatang
+Atribut: namaKebun, daftarHewan, daftarPenjaga
+Metode:
+tambahHewan(Hewan hewan): Menambahkan hewan ke kebun binatang
+tambahPenjaga(Penjaga penjaga): Menambahkan penjaga ke kebun binatang
+tampilkanSemuaHewan(): Menampilkan semua hewan di kebun binatang
+tampilkanSemuaPenjaga(): Menampilkan semua penjaga dan hewan yang mereka rawat
+
+2. Persyaratan Implementasi
+✅ Gunakan enkapsulasi untuk menjaga akses atribut.
+✅ Gunakan ArrayList untuk menyimpan daftar hewan dan penjaga.
+✅ Buat kelas Main untuk menjalankan simulasi program dengan beberapa hewan dan penjaga.
+
+OUTPUT:
+Hewan di Kebun Binatang Safari Land:
+Nama: Leo | Jenis: Singa | Umur: 5 tahun
+Nama: Dumbo | Jenis: Gajah | Umur: 10 tahun
+Nama: Kiki | Jenis: Monyet | Umur: 3 tahun
+
+Daftar Penjaga dan Hewan yang Dirawat:
+Penjaga: Budi (Umur: 30 tahun)
+ - Leo (Singa)
+ - Kiki (Monyet)
+
+Penjaga: Ani (Umur: 28 tahun)
+ - Dumbo (Gajah)
